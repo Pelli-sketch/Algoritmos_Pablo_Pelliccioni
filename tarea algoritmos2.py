@@ -1,6 +1,6 @@
 anno = int(input("Ingresa un anno entre 1900 y 2199: "))
 
-print("Es bisiesto" if not anno % 4 and (anno % 100 or  not anno % 400) else "No es bisiesto")
+print("Es biciesto" if not anno % 4 and (anno % 100 or  not anno % 400) else "No es biciesto")
 
 # incia un counter para los años biciestos
 annos_biciestos = 0
