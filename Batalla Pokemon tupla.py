@@ -9,7 +9,7 @@ ataque_jugador = {"placaje": (35, 10),
                     "malicioso": (0, 10),
                     "ascuas": (20, 0)}
 ataque_oponente = {"pistola de agua": (40, 0),
-                    "latigo": (0, 10),
+                    "latigo": (10, 10),
                     "placaje": (35, 0)}
 
 # Almacenamos los ataques en una lista para poder acceder a ellos fácilmente
