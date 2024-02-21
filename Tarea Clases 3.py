@@ -24,8 +24,8 @@ def main():
     seller1 = Seller("Concesionario X", "Ciudad X")
     seller2 = Seller("Concesionario Y", "Ciudad Y")
 
-    carro1 = Carro("Toyota", "Corolla", seller=seller1)
-    carro2 = Carro("Honda", "Civic", seller=seller2)
+    carro1 = Vehiculo("Toyota", "Corolla", "carro", seller=seller1)
+    carro2 = Vehiculo("Honda", "Civic", "carro", seller=seller2)
 
     registrar_venta(carro1)
     registrar_venta(carro2)
