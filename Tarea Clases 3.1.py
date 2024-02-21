@@ -21,9 +21,9 @@ def registrar_venta(vehiculo):
         archivo.write(str(vehiculo) + "\n")
 
 def main():
-    name = input("Nombre del concesionario: ")
-    location = input("Lugar donde se ubica el concesionario: ")
-    seller = Seller(name, location)
+    nombre = input("Nombre del concesionario: ")
+    lugar = input("Lugar donde se ubica el concesionario: ")
+    seller = Seller(nombre, lugar)
 
     marca = input("Marca del Vehículo: ")
     modelo = input("Modelo del Vehículo: ")
