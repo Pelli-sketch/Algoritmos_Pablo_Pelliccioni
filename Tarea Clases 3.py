@@ -1,7 +1,7 @@
 class Seller:
     def __init__(self, nombre, lugar):
         self.nombre = nombre
-        self.lugar = location
+        self.lugar = lugar
 
 class Vehiculo:
     def __init__(self, marca, modelo, tipo, seller=None):
