@@ -1,5 +1,5 @@
 class Seller:
-    def __init__(self, name, location):
+    def __init__(self, nombre, lugar):
         self.nombre = nombre
         self.lugar = lugar
 
@@ -11,7 +11,7 @@ class Vehiculo:
         self.seller = seller
 
     def __str__(self):
-        return f"{self.tipo.capitalize()} {self.marca} {self.modelo} ({self.seller.name}, {self.seller.location})"
+        return f"{self.tipo.capitalize()} {self.marca} {self.modelo} ({self.seller.nombre}, {self.seller.lugar})"
 
     def set_seller(self, seller):
         self.seller = seller
